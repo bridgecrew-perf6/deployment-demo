@@ -13,6 +13,6 @@ app.get("/", function(req, res) {
 const port = process.env.PORT || 4005;
 
 app.listen(port, () => {
-    console.log('We vibin on port ${port}');
+    console.log(`We vibin on port ${port}`);
 });
 
